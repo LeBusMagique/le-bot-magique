@@ -1,5 +1,6 @@
-from dotenv import dotenv_values
+import os
 import discord
+from dotenv import dotenv_values
 from discord.ext import commands
 
 intents = discord.Intents.default()
